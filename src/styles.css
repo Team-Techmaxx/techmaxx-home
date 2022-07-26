@@ -48,3 +48,34 @@ h1 {
     font-size: 58px;
   }
 }
+
+
+.box {
+  height: 100px;
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  color: black;
+}
+
+.box > a {
+  color: black
+}
+
+
+.box .label {
+  font-size: 30px;
+}
+
+div.box  > a {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none ;
+}
+
+div.box > a:hover {
+  font-size: 30px;
+  color: red
+}
